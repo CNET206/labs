@@ -1,2 +1,2 @@
-# OSL645
-Weekly tutorial lab check scripts
+# Linux Lab Check scripts
+These lab check scripts were originally created by Murray Saul, and have been heavily modified by [Jason Carman](mailto:jasonmcarman@gmail.com). They were designed to check students lab configurations and record the information to a text file to simplify lab submissions. The check scripts are available for use under the [open source licensing](./LICENSE) indicated in this repository.
