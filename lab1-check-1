@@ -5,7 +5,7 @@
 # Author:  Murray Saul
 # Date:    May 22, 2016
 # Modified by: Jason Carman
-# Date: September 14, 2026
+# Date: November 13, 2026
 #
 # Purpose: Check that students correctly installed the Ubuntu VM
 #          and properly performed common Linux commands. Script will
@@ -42,7 +42,7 @@ if [ $(whoami) != "root" ]; then
 fi
 
 # System information gathering
-echo "OPS145 Lab 1 Check 1 Script" > $logfile
+echo "Lab 1 Check 1 Script" > $logfile
 echo | tee -a $logfile
 echo "SYSTEM INFORMATION:" | tee -a $logfile
 
@@ -51,7 +51,7 @@ echo | tee -a $logfile
 echo -e "\033[1mCHECKING YOUR WORK:\033[0m" | tee -a $logfile
 
 # Add a unique identifier to the logfile
-read -p "Please enter your Seneca ID (ie jmcarman): " user
+read -p "Please enter your username (ie jmcarman): " user
 echo "Unique Identifer: $(echo $user | sha256sum)" | tee -a $logfile
 echo "------------------------------------" | tee -a $logfile
 hostnamectl | tee -a $logfile
@@ -64,7 +64,7 @@ check "echo $user &> /dev/null" "This program did NOT detect that the user $user
 
 # Check version of Linux distribution
 echo -n "Checking Correct Linux Distribution: " | tee -a $logfile
-check "grep -iqs \"VERSION=.*2\" /etc/os-release && grep -iqs \"ubuntu\" /etc/os-release && grep -iqs \"lts\" /etc/os-release" " Your version of Ubuntu is incorrect. You are required to use an Ubuntu LTS version (IE 24.04). Install the correct version of Ubuntu using the link provided in the OSL645 lab instructions and re-run this shell script." | tee -a $logfile
+check "grep -iqs \"VERSION=.*2\" /etc/os-release && grep -iqs \"ubuntu\" /etc/os-release && grep -iqs \"lts\" /etc/os-release" " Your version of Ubuntu is incorrect. You are required to use an Ubuntu LTS version (IE 24.04). Install the correct version of Ubuntu using the link provided in the lab instructions and re-run this shell script." | tee -a $logfile
 
 # Checking for network connectivity
 echo -n "Checking for network connectivity: " | tee -a $logfile
@@ -82,7 +82,7 @@ if [ $warningcount == 0 ]; then
   echo "Congratulations!" | tee -a $logfile
   echo | tee -a $logfile
   echo "You have successfully completed $(echo $0)." | tee -a $logfile
-  echo "1. Show the output of this script to your OPS145 professor." | tee -a $logfile
+  echo "1. Show the output of this script to your professor." | tee -a $logfile
   echo "2. A copy of this script output has been created at $logfile." | tee -a $logfile
   echo
 else

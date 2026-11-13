@@ -5,7 +5,7 @@
 # Author:  Murray Saul
 # Date:    February 17, 2021
 # Modified By: Jason Carman
-# Modified: September 14, 2026
+# Modified: November 13, 2026
 #
 # Purpose: Verify that user created a shell script "hello" exists in
 #          their home directory and has execute permissions
@@ -55,10 +55,10 @@ if [ $PWD != $HOME ]; then
 fi
 
 # System information gathering
-echo "OPS145 Lab 5 Check 5 Script" > $logfile
+echo "Lab 5 Check 5 Script" > $logfile
 
 # Add a unique identifier to the logfile
-read -p "Please enter your Seneca ID (ie jmcarman): " user
+read -p "Please enter your username (ie jmcarman): " user
 echo "Unique Identifer: $(echo $user | sha256sum)" | tee -a $logfile
 echo "------------------------------------" | tee -a $logfile
 
@@ -110,7 +110,7 @@ if [ $warningcount == 0 ]; then
   echo "Congratulations!" | tee -a $logfile
   echo | tee -a $logfile
   echo "You have successfully completed $(echo $0)" | tee -a $logfile
-  echo "1. Show the output of this script to your OPS145 professor." | tee -a $logfile
+  echo "1. Show the output of this script to your professor." | tee -a $logfile
   echo "2. A copy of this script output has been created at $logfile." | tee -a $logfile
   echo
 else

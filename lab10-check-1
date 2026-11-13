@@ -63,7 +63,13 @@ clear  # Clear the screen
 
 
 # System information gathering
-echo "OPS145 Lab 10 Check 1 Script" > $logfile
+echo "Lab 10 Check 1 Script" > $logfile
+
+# Add a unique identifier to the logfile
+read -p "Please enter your Seneca ID (ie jmcarman): " user
+echo "Unique Identifer: $(echo $user | sha256sum)" | tee -a $logfile
+echo "------------------------------------" | tee -a $logfile
+
 echo | tee -a $logfile
 echo "CHECKING YOUR LAB 10 WORK:" | tee -a $logfile
 echo | tee -a $logfile
@@ -129,7 +135,7 @@ if [ $warningcount == 0 ]; then
   echo "Congratulations!" | tee -a $logfile
   echo | tee -a $logfile
   echo "You have successfully completed $(echo $0)" | tee -a $logfile
-  echo "1. Show the output of this script to your OPS145 professor." | tee -a $logfile
+  echo "1. Show the output of this script to your professor." | tee -a $logfile
   echo "2. A copy of this script output has been created at $logfile." | tee -a $logfile
   echo
 else

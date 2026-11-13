@@ -11,8 +11,8 @@
 # For new debian labs Fall 2023
 #
 # Edited by: Jason Carman
-# For Ubuntu 24.04 in OSL645
-# Date: November 1, 2024
+# For Ubuntu 26.04
+# Date: November 13, 2026
 
 #
 # Purpose: Check that students correctly managed user and group accounts
@@ -52,7 +52,7 @@ if [ $(whoami) != "root" ]; then
 fi
 
 # System information gathering
-echo "OSL645 Lab 9 Check 1 Script" > $logfile
+echo "Lab 9 Check 1 Script" > $logfile
 echo | tee -a $logfile
 echo "CHECKING YOUR LAB 9 WORK:" | tee -a $logfile
 echo | tee -a $logfile
@@ -90,7 +90,7 @@ if [ $warningcount == 0 ]; then
   echo "Congratulations!" | tee -a $logfile
   echo | tee -a $logfile
   echo "You have successfully completed Lab 9 - Check 1" | tee -a $logfile
-  echo "1. Show the output of this script to your OSL645 professor." | tee -a $logfile
+  echo "1. Show the output of this script to your professor." | tee -a $logfile
   echo "2. A copy of this script output has been created at $logfile." | tee -a $logfile
   echo
 else
