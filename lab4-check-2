@@ -77,7 +77,7 @@ echo
 
 # Check directory "redirect" created in home directory
 echo -n "Checking \"$HOME/redirect\" directory has been created: " | tee -a $logfile
-check "test -d $HOME/redirect" "The directory pathname \"$HOME/redirect\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"uli101xx\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/redirect" "The directory pathname \"$HOME/redirect\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"uli101xx\" in your home directory and re-run this checking script" | tee -a $logfile
 
 
 # Check ~/redirect/output.txt file exists

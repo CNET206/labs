@@ -74,15 +74,15 @@ echo
 
 # Check your home directory contains file called ls
 echo -n "Checking your home directory contains copied file \"ls\": " | tee -a $logfile
-check "test -f $HOME/ls" "The regular file pathname \"$HOME/ls\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your home directory and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/ls" "The regular file pathname \"$HOME/ls\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your home directory and re-run this checking script" | tee -a $logfile
 
 # Check your home directory contains file called ls
 echo -n "Checking your examples directory contains copied file \"ls\": " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/ls" "The regular file pathname \"$HOME/tutorial3/practice/examples/ls\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your current directory (which should have been set to \"examples\") and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/ls" "The regular file pathname \"$HOME/tutorial3/practice/examples/ls\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your current directory (which should have been set to \"examples\") and re-run this checking script" | tee -a $logfile
 
 # Check your home directory contains file called ls.bk
 echo -n "Checking your examples directory contains copied file \"ls.bk\": " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/ls.bk" "The regular file pathname \"$HOME/tutorial3/practice/examples/ls.bk\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your current directory (which should have been set to \"examples\") and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/ls.bk" "The regular file pathname \"$HOME/tutorial3/practice/examples/ls.bk\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Reissue the Linux command to copy the /bin/ls file to your current directory (which should have been set to \"examples\") and re-run this checking script" | tee -a $logfile
 
 warningcount=$(grep -c "WARNING" $logfile)
 

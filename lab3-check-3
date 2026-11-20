@@ -74,47 +74,47 @@ echo
 
 # Check regular file tutorial3/practice/examples/abc.txt exists
 echo -n "Checking \"tutorial3/practice/examples/abc.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/abc.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abc.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abc.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/abc.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abc.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abc.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/def.text exists
 echo -n "Checking \"tutorial3/practice/examples/def.text regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/def.text" "The regular file pathname \"$HOME/tutorial3/practice/examples/def.text\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/def.text\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/def.text" "The regular file pathname \"$HOME/tutorial3/practice/examples/def.text\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/def.text\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/hij.TxT exists
 echo -n "Checking \"tutorial3/practice/examples/hij.TxT\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/hij.TxT" "The regular file pathname \"$HOME/tutorial3/practice/examples/hij.TxT does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/hij.TxT\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/hij.TxT" "The regular file pathname \"$HOME/tutorial3/practice/examples/hij.TxT does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/hij.TxT\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/1a4.txt exists
 echo -n "Checking \"tutorial3/practice/examples/1a4.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/1a4.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/1a4.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/1a4.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/1a4.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/1a4.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/1a4.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/123.TXT exists
 echo -n "Checking \"tutorial3/practice/examples/123.TXT\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/123.TXT" "The regular file pathname \"$HOME/tutorial3/practice/examples/123.TXT\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/123.TXT\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/123.TXT" "The regular file pathname \"$HOME/tutorial3/practice/examples/123.TXT\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/123.TXT\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/456.txt exists
 echo -n "Checking \"tutorial3/practice/examples/456.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/456.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/456.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/456.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/456.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/456.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/456.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/6u9.txt exists
 echo -n "Checking \"tutorial3/practice/examples/6u9.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/6u9.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/6u9.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/6u9.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/6u9.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/6u9.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/6u9.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/ab2.html exists
 echo -n "Checking \"tutorial3/practice/examples/ab2.html\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/ab2.html" "The regular file pathname \"$HOME/tutorial3/practice/examples/ab2.html\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/ab2.html and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/ab2.html" "The regular file pathname \"$HOME/tutorial3/practice/examples/ab2.html\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/ab2.html and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/1234.txt exists
 echo -n "Checking \"tutorial3/practice/examples/1234.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/1234.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/1234.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/1234.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/1234.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/1234.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/1234.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/abcdef.txt exists
 echo -n "Checking \"tutorial3/practice/examples/abcdef.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/abcdef.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abcdef.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abcdef.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/abcdef.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abcdef.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abcdef.txt\" and re-run this checking script" | tee -a $logfile
 
 # Check regular file tutorial3/practice/examples/abcde.txt exists
 echo -n "Checking \"tutorial3/practice/examples/abcde.txt\" regular file exists: " | tee -a $logfile
-check "test -f $HOME/tutorial3/practice/examples/abcde.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abcde.txt\" does NOT exist. Check if you mispelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abcde.txt\" and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/tutorial3/practice/examples/abcde.txt" "The regular file pathname \"$HOME/tutorial3/practice/examples/abcde.txt\" does NOT exist. Check if you misspelled the file name, or used uppercase letters by mistake. Use the \"touch\" command to create the regular file called \"tutorial3/practice/examples/abcde.txt\" and re-run this checking script" | tee -a $logfile
 
 warningcount=$(grep -c "WARNING" $logfile)
 

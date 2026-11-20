@@ -53,29 +53,33 @@ echo "CHECKING YOUR LAB 1 WORK:" | tee -a $logfile
 echo -e "\033[1mCHECKING YOUR WORK:\033[0m"
 echo
 
-# Check directory osl640xx created in home directory
-echo -n "Checking \"osl640xx\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/osl640xx" "The directory pathname \"$HOME/osl640xx\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files created in home directory
+echo -n "Checking \"files\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files" "The directory pathname \"$HOME/files\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osm620xx created in home directory
-echo -n "Checking \"osm620xx\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/osm620xx" "The directory pathname \"$HOME/osm620xx\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osm620xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux created in home directory
+echo -n "Checking \"files/linux\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/linux" "The directory pathname \"$HOME/files/linux\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/linux\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx created in home directory
-echo -n "Checking \"nwk680xx\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/nwk680xx" "The directory pathname \"$HOME/nwk680xx\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/windows created in home directory
+echo -n "Checking \"files/windows\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/windows" "The directory pathname \"$HOME/files/windows\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/windows\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osl640xx/notes created in home directory
-echo -n "Checking \"osl640xx/notes\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/osl640xx/notes" "The directory pathname \"$HOME/osl640xx/notes\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/notes\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco created in home directory
+echo -n "Checking \"files/cisco\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/cisco" "The directory pathname \"$HOME/files/cisco\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osl640xx/tutorials created in home directory
-echo -n "Checking \"osl640xx/tutorials\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/osl640xx/tutorials" "The directory pathname \"$HOME/osl640xx/tutorials\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux/notes created in home directory
+echo -n "Checking \"files/linux/notes\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/linux/notes" "The directory pathname \"$HOME/files/linux/notes\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"linux/notes\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osl640xx/examples created in home directory
-echo -n "Checking \"osl640xx/samples\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/osl640xx/samples" "The directory pathname \"$HOME/osl640xx/samples\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/samples\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux/tutorials created in home directory
+echo -n "Checking \"files/linux/tutorials\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/linux/tutorials" "The directory pathname \"$HOME/files/linux/tutorials\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"linux/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
+
+# Check directory files/linux/samples created in home directory
+echo -n "Checking \"files/linux/samples\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/files/linux/samples" "The directory pathname \"$HOME/files/linux/samples\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"linux/samples\" in your home directory and re-run this checking script" | tee -a $logfile
 
 warningcount=`grep -c "WARNING" $logfile`
 

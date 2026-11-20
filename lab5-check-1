@@ -72,27 +72,27 @@ echo
 
 # Check directory documents created in home directory
 echo -n "Checking \"documents\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/documents" "The directory pathname \"$HOME/documents\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"documents\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/documents" "The directory pathname \"$HOME/documents\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"documents\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check directory clients created in home directory
 echo -n "Checking \"clients\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/clients" "The directory pathname \"$HOME/clients\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"clients\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/clients" "The directory pathname \"$HOME/clients\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"clients\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check directory vendors created in home directory
 echo -n "Checking \"vendors\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/vendors" "The directory pathname \"$HOME/vendors\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"vendors\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/vendors" "The directory pathname \"$HOME/vendors\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"vendors\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check directory documents/memos created in home directory
 echo -n "Checking \"documents/memos\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/documents/memos" "The directory pathname \"$HOME/documents/memos\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"documents/memos\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/documents/memos" "The directory pathname \"$HOME/documents/memos\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"documents/memos\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check directory documents/reports created in home directory
 echo -n "Checking \"documents/reports\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/documents/reports" "The directory pathname \"$HOME/documents/reports\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"documents/reports\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/documents/reports" "The directory pathname \"$HOME/documents/reports\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"documents/reports\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check directory documents/contracts created in home directory
 echo -n "Checking \"documents/contracts\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/documents/contracts" "The directory pathname \"$HOME/documents/contracts\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"documents/contracts\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/documents/contracts" "The directory pathname \"$HOME/documents/contracts\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"documents/contracts\" in your home directory and re-run this checking script" | tee -a $logfile
 
 warningcount=$(grep -c "WARNING" $logfile)
 

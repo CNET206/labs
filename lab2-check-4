@@ -7,8 +7,8 @@
 # Modified by: Jason Carman
 # Date: November 13, 2026
 #
-# Purpose: Check that user correctly created hard links
-#          on their matrix server. If the errors, then the
+# Purpose: Check that user correctly created hard links.
+#          If there are errors, then the
 #          checking script will provide feedback to correct the problem.
 #          If no errors, then a congratulatory message will be displayed
 #          so that the user can proceed to the next section.
@@ -55,19 +55,19 @@ echo
 
 # Check directory links created in home directory
 echo -n "Checking \"links\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/links" "The directory pathname \"$HOME/links\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"links\" in your home directory and re-run this checking script"| tee -a $logfile
+check "test -d $HOME/links" "The directory pathname \"$HOME/links\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"links\" in your home directory and re-run this checking script"| tee -a $logfile
 
 # Check ~/links/data-file.txt exists
 echo -n "Checking \"$HOME/links/data-file.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/links/data-file.txt" "The text file pathname \"$HOME/links/data-file.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Create the file \"$HOME/links/data-file.txt\" file and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/links/data-file.txt" "The text file pathname \"$HOME/links/data-file.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Create the file \"$HOME/links/data-file.txt\" file and re-run this checking script" | tee -a $logfile
 
 # Check ~/links/data-file.hard.lnk exists
 echo -n "Checking \"$HOME/links/data-file.hard.lnk\" file exists: " | tee -a $logfile
-check "test -f $HOME/links/data-file.hard.lnk" "The text file pathname \"$HOME/links/data-file.hard.lnk\" does NOT exist. Check if you mispelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/links/data-file.hard.lnk" "The text file pathname \"$HOME/links/data-file.hard.lnk\" does NOT exist. Check if you misspelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
 
 # Check ~/data-file.hard.lnk exists
 echo -n "Checking \"$HOME/data-file.hard.lnk\" file exists: " | tee -a $logfile
-check "test -f $HOME/data-file.hard.lnk" "The text file pathname \"$HOME/data-file.hard.lnk\" does NOT exist. Check if you mispelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/data-file.hard.lnk" "The text file pathname \"$HOME/data-file.hard.lnk\" does NOT exist. Check if you misspelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
 
 # Obtain i-node numbers from files
 original=$(ls -i $HOME/links/data-file.txt | cut -d" " -f1)

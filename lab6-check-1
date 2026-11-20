@@ -79,11 +79,11 @@ echo
 
 # Check directory ~/local directory created
 echo -n "Checking \"~/local\" directory has been created: " | tee -a $logfile
-check "test -d $HOME/local" "The directory pathname \"$HOME/local\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"local\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/local" "The directory pathname \"$HOME/local\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"local\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check text file myfile.txt created in local directory
 echo -n "Checking \"~/local/myfile.txt\" file created: " | tee -a $logfile
-check "test -f $HOME/local/myfile.txt" "The file pathname \"$HOME/local/myfile.txt\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the file \"$HOME/local/myfile.txt\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/local/myfile.txt" "The file pathname \"$HOME/local/myfile.txt\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the file \"$HOME/local/myfile.txt\" in your home directory and re-run this checking script" | tee -a $logfile
 
 cat > /tmp/myfile.$$ <<+
 This is my file

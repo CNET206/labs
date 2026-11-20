@@ -81,7 +81,7 @@ check "test -f $HOME/regexps/numbers2.dat" "The file pathname \"$HOME/regexps/nu
 
 # Check ~/regexps/better-number1.txt file exists
 echo -n "Checking \"$HOME/regexps/better-number1.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/better-number1.txt" "The text file pathname \"$HOME/regexps/better-number1.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/better-number1.txt" "The text file pathname \"$HOME/regexps/better-number1.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/better-number1.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/better-number1.txt\" file contains correct results: " | tee -a $logfile
@@ -91,7 +91,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/regexps/better-number2.txt file exists
 echo -n "Checking \"$HOME/regexps/better-number2.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/better-number2.txt" "The text file pathname \"$HOME/regexps/better-number2.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/better-number2.txt" "The text file pathname \"$HOME/regexps/better-number2.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/better-number2.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/better-number2.txt\" file contains correct results: " | tee -a $logfile
@@ -101,7 +101,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/regexps/better-number3.txt file exists
 echo -n "Checking \"$HOME/regexps/better-number3.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/better-number3.txt" "The text file pathname \"$HOME/regexps/better-number3.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/better-number3.txt" "The text file pathname \"$HOME/regexps/better-number3.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/better-number3.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/better-number3.txt\" file contains correct results: " | tee -a $logfile

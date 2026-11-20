@@ -77,7 +77,7 @@ echo
 
 # Check directory regexps created in home directory
 echo -n "Checking \"regexps\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/regexps" "The directory pathname \"$HOME/regexps\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"regexps\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/regexps" "The directory pathname \"$HOME/regexps\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"regexps\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check that numbers1.dat file was copied to your regexps directory
 echo -n "Checking \"numbers1.dat\" file was copied to the \"regexps\" directory: " | tee -a $logfile
@@ -85,7 +85,7 @@ check "test -f $HOME/regexps/numbers1.dat" "The file pathname \"$HOME/regexps/nu
 
 # Check ~/regexps/faulty.txt file exists
 echo -n "Checking \"$HOME/regexps/faulty.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/faulty.txt" "The text file pathname \"$HOME/regexps/faulty.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/faulty.txt" "The text file pathname \"$HOME/regexps/faulty.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/faulty.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/faulty.txt\" file contains correct results: " | tee -a $logfile
@@ -95,7 +95,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/regexps/whole.txt file exists
 echo -n "Checking \"$HOME/regexps/whole.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/whole.txt" "The text file pathname \"$HOME/regexps/whole.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/whole.txt" "The text file pathname \"$HOME/regexps/whole.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/whole.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/whole.txt\" file contains correct results: " | tee -a $logfile
@@ -105,7 +105,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/regexps/signed.txt file exists
 echo -n "Checking \"$HOME/regexps/signed.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/signed.txt" "The text file pathname \"$HOME/regexps/signed.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/signed.txt" "The text file pathname \"$HOME/regexps/signed.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/signed.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/signed.txt\" file contains correct results: " | tee -a $logfile
@@ -115,7 +115,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/regexps/all.txt file exists
 echo -n "Checking \"$HOME/regexps/all.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/regexps/all.txt" "The text file pathname \"$HOME/regexps/all.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/regexps/all.txt" "The text file pathname \"$HOME/regexps/all.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/regexps/all.txt file contains correct results
 echo -n "Checking \"$HOME/regexps/all.txt\" file contains correct results: " | tee -a $logfile

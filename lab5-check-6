@@ -74,7 +74,7 @@ echo
 
 # Check "hello.bash" shell script was created
 echo -n "Checking \"hello.bash\" shell script file has been created: " | tee -a $logfile
-check "test -f $HOME/lab5/hello.bash" "The file pathname \"$HOME/lab5/hello.bash\" does NOT exist. Check if you mispelled file name, or used uppercase letters by mistake. Use Git to clone your repo and re-run this checking script\n" | tee -a $logfile
+check "test -f $HOME/lab5/hello.bash" "The file pathname \"$HOME/lab5/hello.bash\" does NOT exist. Check if you misspelled file name, or used uppercase letters by mistake. Use Git to clone your repo and re-run this checking script\n" | tee -a $logfile
 
 # Check "hello.bash" shell script (in your home directory) has execute permissions
 echo -n "Checking \"hello.bash\" shell script file has execute permissions: " | tee -a $logfile

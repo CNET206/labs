@@ -55,19 +55,19 @@ echo
 
 # Check directory links2 created in home directory
 echo -n "Checking \"links2\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/links2" "The directory pathname \"$HOME/links2\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"links2\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/links2" "The directory pathname \"$HOME/links2\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"links2\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check ~/links2/text-file.txt exists
 echo -n "Checking \"$HOME/links2/text-file.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/links2/text-file.txt" "The text file pathname \"$HOME/links2/text-file.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Create the file \"$HOME/links2/text-file.txt\" file and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/links2/text-file.txt" "The text file pathname \"$HOME/links2/text-file.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Create the file \"$HOME/links2/text-file.txt\" file and re-run this checking script" | tee -a $logfile
 
 # Check ~/links2/text-file.sym.lnk exists
 echo -n "Checking \"$HOME/links2/text-file.sym.lnk\" file exists: " | tee -a $logfile
-check "test -f $HOME/links2/text-file.sym.lnk" "The text file pathname \"$HOME/links2/text-file.sym.lnk\" does NOT exist. Check if you mispelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/links2/text-file.sym.lnk" "The text file pathname \"$HOME/links2/text-file.sym.lnk\" does NOT exist. Check if you misspelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script" | tee -a $logfile
 
 # Check ~/text-file.sym.lnk exists
 echo -n "Checking \"$HOME/text-file.sym.lnk\" file exists: " | tee -a $logfile
-check "test -f $HOME/text-file.sym.lnk" "The text file pathname \"$HOME/text-file.sym.lnk\" does NOT exist. Check if you mispelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script"  | tee -a $logfile
+check "test -f $HOME/text-file.sym.lnk" "The text file pathname \"$HOME/text-file.sym.lnk\" does NOT exist. Check if you misspelled file pathname, used uppercase letters by mistake, or didn't properly issue the \"ln\" command with the filenames in the correct argument order. Reissue the \"ln\" command with the correct file pathnames (in the correct order)file and re-run this checking script"  | tee -a $logfile
 
 # Check ~/links2/text-file.sym.lnk is a symbolic link
 echo -n "Checking \"$HOME/links2/text-file.sym.lnk\" file is a symbolic link: " | tee -a $logfile

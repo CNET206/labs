@@ -76,7 +76,7 @@ echo
 
 # Check directory "awk" created in home directory
 echo -n "Checking \"awk\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/awk" "The directory pathname \"$HOME/awk\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"awk\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/awk" "The directory pathname \"$HOME/awk\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"awk\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check that cars file was downloaded to your "awk" directory
 echo -n "Checking \"cars\" file was copied to the \"awk\" directory: " | tee -a $logfile
@@ -84,7 +84,7 @@ check "test -f $HOME/awk/cars" "The file pathname \"$HOME/awk/cars\" does NOT ex
 
 # Check ~/awk/awk-1.txt file exists
 echo -n "Checking \"$HOME/awk/awk-1.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-1.txt" "The text file pathname \"$HOME/awk/awk-1.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-1.txt" "The text file pathname \"$HOME/awk/awk-1.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-1.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-1.txt\" file contains correct results: " | tee -a $logfile
@@ -94,7 +94,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-2.txt file exists
 echo -n "Checking \"$HOME/awk/awk-2.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-2.txt" "The text file pathname \"$HOME/awk/awk-2.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-2.txt" "The text file pathname \"$HOME/awk/awk-2.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-2.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-2.txt\" file contains correct results: " | tee -a $logfile
@@ -104,7 +104,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-3.txt file exists
 echo -n "Checking \"$HOME/awk/awk-3.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-3.txt" "The text file pathname \"$HOME/awk/awk-3.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-3.txt" "The text file pathname \"$HOME/awk/awk-3.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-3.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-3.txt\" file contains correct results: " | tee -a $logfile
@@ -114,7 +114,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-4.txt file exists
 echo -n "Checking \"$HOME/awk/awk-4.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-4.txt" "The text file pathname \"$HOME/awk/awk-4.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-4.txt" "The text file pathname \"$HOME/awk/awk-4.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-4.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-4.txt\" file contains correct results: " | tee -a $logfile
@@ -124,7 +124,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-5.txt file exists
 echo -n "Checking \"$HOME/awk/awk-5.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-5.txt" "The text file pathname \"$HOME/awk/awk-5.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-5.txt" "The text file pathname \"$HOME/awk/awk-5.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-5.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-5.txt\" file contains correct results: " | tee -a $logfile
@@ -134,7 +134,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-6.txt file exists
 echo -n "Checking \"$HOME/awk/awk-6.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-6.txt" "The text file pathname \"$HOME/awk/awk-6.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-6.txt" "The text file pathname \"$HOME/awk/awk-6.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-6.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-6.txt\" file contains correct results: " | tee -a $logfile
@@ -144,7 +144,7 @@ rm /tmp/temp.$$ 2> /dev/null
 
 # Check ~/awk/awk-7.txt file exists
 echo -n "Checking \"$HOME/awk/awk-7.txt\" file exists: " | tee -a $logfile
-check "test -f $HOME/awk/awk-7.txt" "The text file pathname \"$HOME/awk/awk-7.txt\" does NOT exist. Check if you mispelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
+check "test -f $HOME/awk/awk-7.txt" "The text file pathname \"$HOME/awk/awk-7.txt\" does NOT exist. Check if you misspelled file pathname, or used uppercase letters by mistake. Reissue the correct pipeline command and re-run this checking script" | tee -a $logfile
 
 # Check ~/awk/awk-7.txt file contains correct results
 echo -n "Checking \"$HOME/awk/awk-7.txt\" file contains correct results: " | tee -a $logfile

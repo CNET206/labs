@@ -54,41 +54,41 @@ echo "CHECKING YOUR LAB 1 WORK:" | tee -a $logfile
 echo -e "\033[1mCHECKING YOUR WORK:\033[0m"
 echo
 
-# Check directory osl640xx/notes removed in home directory
-echo -n "Checking \"osl640xx/notes\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/osl640xx/notes" "The directory pathname \"$HOME/osl640xx/notes\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/notes\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux/notes removed in home directory
+echo -n "Checking \"files/linux/notes\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/linux/notes" "The directory pathname \"$HOME/files/linux/notes\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/linux/notes\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osl640xx/tutorials removed in home directory
-echo -n "Checking \"osl640xx/tutorials\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/osl640xx/tutorials" "The directory pathname \"$HOME/osl640xx/tutorials\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux/tutorials removed in home directory
+echo -n "Checking \"files/linux/tutorials\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/linux/tutorials" "The directory pathname \"$HOME/files/linux/tutorials\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/linux/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory osl640xx/samples removed in home directory
-echo -n "Checking \"osl640xx/samples\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/osl640xx/samples" "The directory pathname \"$HOME/osl640xx/samples\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"osl640xx/samples\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/linux/samples removed in home directory
+echo -n "Checking \"files/linux/samples\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/linux/samples" "The directory pathname \"$HOME/files/linux/samples\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/linux/samples\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx created in removed directory
-echo -n "Checking \"nwk680xx\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx" "The directory pathname \"$HOME/nwk680xx\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco created in removed directory
+echo -n "Checking \"files/cisco\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco" "The directory pathname \"$HOME/files/cisco\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx/osl640xx removed in home directory
-echo -n "Checking \"nwk680xx/osl640xx\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx/osl640xx" "The directory pathname \"$HOME/nwk680xx/osl640xx\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx/osl640xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco/linux removed in home directory
+echo -n "Checking \"files/cisco/linux\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco/linux" "The directory pathname \"$HOME/files/cisco/linux\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco/linux\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx/osl640xx/notes removed in home directory
-echo -n "Checking \"nwk680xx/osl640xx/notes\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx/osl640xx/notes" "The directory pathname \"$HOME/nwk680xx/osl640xx/notes\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx/osl640xx/notes\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco/linux/notes removed in home directory
+echo -n "Checking \"files/cisco/linux/notes\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco/linux/notes" "The directory pathname \"$HOME/files/cisco/linux/notes\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco/linux/notes\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx/osl640xx/tutorials removed in home directory
-echo -n "Checking \"nwk680xx/osl640xx/tutorials\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx/osl640xx/tutorials" "The directory pathname \"$HOME/nwk680xx/osl640xx/tutorials\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx/osl640xx/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco/linux/tutorials removed in home directory
+echo -n "Checking \"files/cisco/linux/tutorials\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco/linux/tutorials" "The directory pathname \"$HOME/files/cisco/linux/tutorials\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco/linux/tutorials\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx/osl640xx/samples removed in home directory
-echo -n "Checking \"nwk680xx/osl640xx/samples\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx/osl640xx/samples" "The directory pathname \"$HOME/nwk680xx/osl640xx/samples\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx/osl640xx/samples\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco/linux/samples removed in home directory
+echo -n "Checking \"files/cisco/linux/samples\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco/linux/samples" "The directory pathname \"$HOME/files/cisco/linux/samples\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco/linux/samples\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory nwk680xx/osl640xx/tutorials/osm620xx removed in home directory
-echo -n "Checking \"nwk680xx/osl640xx/tutorials/osm620xx\" directory has been removed in your home directory: " | tee -a $logfile
-check "! test -d $HOME/nwk680xx/osl640xx/tutorials/osm620xx" "The directory pathname \"$HOME/nwk680xx/osl640xx/tutorials/osm620xx\" still exists. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"nwk680xx/osl640xx/tutorials/osm620xx\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory files/cisco/linux/tutorials/windows removed in home directory
+echo -n "Checking \"files/cisco/linux/tutorials/windows\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files/cisco/linux/tutorials/windows" "The directory pathname \"$HOME/files/cisco/linux/tutorials/windows\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/cisco/linux/tutorials/windows\" in your home directory and re-run this checking script" | tee -a $logfile
 
 warningcount=`grep -c "WARNING" $logfile`
 

@@ -78,7 +78,7 @@ echo
 
 # Check "if-1.bash" shell script was created
 echo -n "Checking \"if-1.bash\" shell script file has been created: " | tee -a $logfile
-check "test -f $HOME/lab7/if-1.bash" "The file pathname \"$HOME/lab7/if-1.bash\" does NOT exist. Check if you mispelled file name, or used uppercase letters by mistake. Use Git to clone your repo and re-run this checking script\n" | tee -a $logfile
+check "test -f $HOME/lab7/if-1.bash" "The file pathname \"$HOME/lab7/if-1.bash\" does NOT exist. Check if you misspelled file name, or used uppercase letters by mistake. Use Git to clone your repo and re-run this checking script\n" | tee -a $logfile
 
 # Check "if-1.bash" shell script has execute permissions
 echo -n "Checking \"if-1.bash\" shell script file has execute permissions: " | tee -a $logfile
@@ -106,7 +106,7 @@ check "diff /tmp/student.$$ /tmp/compare.$$ > /dev/null 2> /dev/null" "The OUTPU
 
 # Check "for-1.bash" shell script was created
 echo -n "Checking \"for-1.bash\" shell script file has been created: " | tee -a $logfile
-check "test -f $HOME/lab7/for-1.bash" "The file pathname \"$HOME/lab7/for-1.bash\" does NOT exist. Check if you mispelled file name, or used uppercase letters by mistake. Rename the shell script file to \"for-1.bash\" in your home directory and re-run this checking script\n" | tee -a $logfile
+check "test -f $HOME/lab7/for-1.bash" "The file pathname \"$HOME/lab7/for-1.bash\" does NOT exist. Check if you misspelled file name, or used uppercase letters by mistake. Rename the shell script file to \"for-1.bash\" in your home directory and re-run this checking script\n" | tee -a $logfile
 
 # Check "for-1.bash" shell script has execute permissions
 echo -n "Checking \"for-1.bash\" shell script file has execute permissions: "
@@ -148,7 +148,7 @@ check "diff /tmp/student.$$ /tmp/compare.$$ > /dev/null 2> /dev/null" "The OUTPU
 
 # Check "for-2.bash" shell script was created
 echo -n "Checking \"for-2.bash\" shell script file has been created: " | tee -a $logfile
-check "test -f $HOME/lab7/for-2.bash" "The file pathname \"$HOME/lab7/for-2.bash\" does NOT exist. Check if you mispelled file name, or used uppercase letters by mistake. Rename the shell script file to \"for-2.bash\" in your home directory and re-run this checking script\n" | tee -a $logfile
+check "test -f $HOME/lab7/for-2.bash" "The file pathname \"$HOME/lab7/for-2.bash\" does NOT exist. Check if you misspelled file name, or used uppercase letters by mistake. Rename the shell script file to \"for-2.bash\" in your home directory and re-run this checking script\n" | tee -a $logfile
 
 # Check "for-2.bash" shell script (in your home directory) has execute permissions
 echo -n "Checking \"for-2.bash\" shell script file has execute permissions: "

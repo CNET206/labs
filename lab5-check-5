@@ -71,7 +71,7 @@ echo
 
 # Check "hello" shell script was created in home directory
 echo -n "Checking \"hello\" shell script file has been created in your home directory: " | tee -a $logfile
-check "test -f $HOME/hello" "The file pathname \"$HOME/hello\" does NOT exist. Check if you mispelled file name, or used uppercase letters by mistake. Create the shell script file \"hello\" in your home directory and re-run this checking script\n" | tee -a $logfile
+check "test -f $HOME/hello" "The file pathname \"$HOME/hello\" does NOT exist. Check if you misspelled file name, or used uppercase letters by mistake. Create the shell script file \"hello\" in your home directory and re-run this checking script\n" | tee -a $logfile
 
 # Check "hello" shell script (in your home directory) has execute permissions
 echo -n "Checking \"hello\" shell script file has execute permissions: " | tee -a $logfile

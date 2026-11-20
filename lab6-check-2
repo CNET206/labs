@@ -77,7 +77,7 @@ echo
 
 # Check directory ~/local directory created
 echo -n "Checking \"~/local\" directory has been created: " | tee -a $logfile
-check "test -d $HOME/local" "The directory pathname \"$HOME/local\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"local\" in your home directory and re-run this checking script" | tee -a $logfile
+check "test -d $HOME/local" "The directory pathname \"$HOME/local\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"local\" in your home directory and re-run this checking script" | tee -a $logfile
 
 # Check that remotely copied file ~/local/other.txt exists
 echo -n "Checking that file \"~/local/other.txt\" exists: " | tee -a $logfile
