@@ -54,6 +54,10 @@ echo "CHECKING YOUR LAB 1 WORK:" | tee -a $logfile
 echo -e "\033[1mCHECKING YOUR WORK:\033[0m"
 echo
 
+# Check directory files removed in home directory
+echo -n "Checking \"files\" directory has been removed in your home directory: " | tee -a $logfile
+check "! test -d $HOME/files" "The directory pathname \"$HOME/files\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files\" in your home directory and re-run this checking script" | tee -a $logfile
+
 # Check directory files/linux/notes removed in home directory
 echo -n "Checking \"files/linux/notes\" directory has been removed in your home directory: " | tee -a $logfile
 check "! test -d $HOME/files/linux/notes" "The directory pathname \"$HOME/files/linux/notes\" still exists. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"files/linux/notes\" in your home directory and re-run this checking script" | tee -a $logfile
