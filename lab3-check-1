@@ -73,33 +73,33 @@ echo "CHECKING YOUR LAB 3 WORK:" | tee -a $logfile
 echo -e "\033[1mCHECKING YOUR WORK:\033[0m"
 echo
 
-# Check directory tutorial3 created in home directory
-echo -n "Checking \"tutorial3\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3" "The directory pathname \"$HOME/tutorial3\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3 created in home directory
+echo -n "Checking \"lab3\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3" "The directory pathname \"$HOME/lab3\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/practice created in home directory
-echo -n "Checking \"tutorial3/practice\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/practice" "The directory pathname \"$HOME/tutorial3/practice\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/practice\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/practice created in home directory
+echo -n "Checking \"lab3/practice\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/practice" "The directory pathname \"$HOME/lab3/practice\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/practice\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/practice/commands created in home directory
-echo -n "Checking \"tutorial3/practice/commands\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/practice/commands" "The directory pathname \"$HOME/tutorial3/practice/commands\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/practice/commands\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/practice/commands created in home directory
+echo -n "Checking \"lab3/practice/commands\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/practice/commands" "The directory pathname \"$HOME/lab3/practice/commands\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/practice/commands\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/practice/examples created in home directory
-echo -n "Checking \"tutorial3/practice/examples\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/practice/examples" "The directory pathname \"$HOME/tutorial3/practice/examples\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/practice/examples\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/practice/examples created in home directory
+echo -n "Checking \"lab3/practice/examples\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/practice/examples" "The directory pathname \"$HOME/lab3/practice/examples\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/practice/examples\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/notes created in home directory
-echo -n "Checking \"tutorial3/notes\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/notes" "The directory pathname \"$HOME/tutorial3/notes\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/notes\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/notes created in home directory
+echo -n "Checking \"lab3/notes\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/notes" "The directory pathname \"$HOME/lab3/notes\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/notes\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/notes/lesson1 created in home directory
-echo -n "Checking \"tutorial3/notes/lesson1\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/notes/lesson1" "The directory pathname \"$HOME/tutorial3/notes/lesson1\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/notes/lesson1\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/notes/lesson1 created in home directory
+echo -n "Checking \"lab3/notes/lesson1\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/notes/lesson1" "The directory pathname \"$HOME/lab3/notes/lesson1\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/notes/lesson1\" in your home directory and re-run this checking script" | tee -a $logfile
 
-# Check directory tutorial3/notes/lesson2 created in home directory
-echo -n "Checking \"tutorial3/notes/lesson2\" directory has been created in your home directory: " | tee -a $logfile
-check "test -d $HOME/tutorial3/notes/lesson2" "The directory pathname \"$HOME/tutorial3/notes/lesson2\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"tutorial3/notes/lesson2\" in your home directory and re-run this checking script" | tee -a $logfile
+# Check directory lab3/notes/lesson2 created in home directory
+echo -n "Checking \"lab3/notes/lesson2\" directory has been created in your home directory: " | tee -a $logfile
+check "test -d $HOME/lab3/notes/lesson2" "The directory pathname \"$HOME/lab3/notes/lesson2\" does NOT exist. Check if you misspelled directory name, or used uppercase letters by mistake. Create the directory \"lab3/notes/lesson2\" in your home directory and re-run this checking script" | tee -a $logfile
 
 warningcount=$(grep -c "WARNING" $logfile)
 
