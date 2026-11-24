@@ -7,7 +7,7 @@
 # Modified By: Jason Carman
 # Modified: November 13, 2026
 #
-# Purpose: Check that user correctly created reqular files within
+# Purpose: Check that user correctly created regular files within
 #          the specified directory structure. This shell script will 
 #          exit if errors, but will provide feedback to correct the problem.
 #          If no errors, then a congratulatory message will be displayed
